@@ -1,0 +1,40 @@
+﻿
+*{
+    margin:0px;
+
+
+}
+
+body {
+
+    background-image: url("rectangle.webp");
+    color:#fff;
+    font-family:Arial;
+
+}
+
+.head-one{
+    text-align:center;
+
+
+}
+
+.first-text2{
+    font-size:18px;
+    text-align:center;
+    margin:20px;
+
+
+}
+
+
+.space-gif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+}
+
+
+
+
