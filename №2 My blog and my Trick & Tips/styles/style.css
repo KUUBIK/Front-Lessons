@@ -28,13 +28,57 @@ body {
 }
 
 
+
 .space-gif {
     display: flex;
     align-items: center;
     justify-content: center;
     margin:20px;
+    
+}
+
+/*РАБОТА С ФОРМАМИ*/
+.forms {
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    padding:5px 10px;
+    text-align: center;
+    background-color: lightblue;
+    border-radius:10px;
+}
+
+.forms-input {
+    margin:10px 5px;
+
+}
+
+
+/*Псевдоклассы*/
+.btn{
+    margin:5px 10px;
+
+}
+
+.btn:hover{
+    background-color:aqua;
+
+
+}
+
+.link{
+    text-decoration:none;
+
+}
+
+.link:active{
+    color:forestgreen;
+
+
 }
 
 
 
-
+.form-field:focus {
+    background-color: #15aced;
+}
