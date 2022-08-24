@@ -5,6 +5,12 @@
 
 }
 
+.parrent-header {
+    display: flex;
+    justify-content: space-around;
+    gap:40%;
+}
+
 .header-container {
     font-family: Roboto;
     font-weight: 700;
@@ -12,30 +18,30 @@
     color: #161616;
     line-height:116px;
     letter-spacing:0.025em;
-    margin-right:100px;
+
 }
 
-.header-container2 {
+
+
+.header-menu {
     font-family: inherit;
     font-weight: 700;
     font-size: 30px;
     color: #161616;
     line-height: 116px;
     letter-spacing: 0.025em;
-    margin-left:180px;
+
+
 }
 
 
 .body-container-1 {
     background-color: #e9e9e9;
-    width: 1170px;
+    width: 78%;
     height: 573px;
     margin: auto;
 
-}
 
-.parrent-header{
-    display:flex;
-    justify-content:space-around;
 
 }
+
